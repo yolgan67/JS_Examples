@@ -9,6 +9,15 @@ function findMax(ex1, ex2, ex3) {
 }
 findMax(ex1, ex2, ex3);
 
+//yada
+// function findMax(x,y,z){
+  
+//       let maxNumber=Math.max(x,y,z);
+//       return maxNumber;
+//   }
+// ​
+//   console.log(findMax(23,45,12));
+
 //Declare a function name evensAndOdds. It takes a positive integer (from prompt) as parameter and prints out
 
 let ex4 = prompt("Write a positive integer");
