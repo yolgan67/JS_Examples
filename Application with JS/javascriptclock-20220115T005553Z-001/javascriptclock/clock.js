@@ -1,9 +1,4 @@
-// let greetingName = prompt(" Lütfen Adınızı Giriniz")
-
-// let myName = document.querySelector("#myName")
-// myName.innerHTML =`${greetingName}`
-// let date= Date()
-// let myClock = document.querySelector("#myClock");
+let greetingName = prompt(" Lütfen Adınızı Giriniz")
 
 function time() {
   var date = new Date();
