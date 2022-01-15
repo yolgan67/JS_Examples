@@ -1,5 +1,9 @@
 let greetingName = prompt(" Lütfen Adınızı Giriniz")
 
+let myName = document.querySelector("#myName")
+myName.innerHTML =`${greetingName}`
+
+
 function time() {
   var date = new Date();
   var h = date.getHours(); 
