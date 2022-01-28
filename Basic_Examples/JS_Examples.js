@@ -70,9 +70,9 @@ let fahrenheit = (celsius*1.8)+32
 console.log(`If Kelvin value ${kelvin} K, Celsius value ${celsius} degree C and Fahrenheit value ${fahrenheit} F`)
 */
 
-// 6. JavaScript Program to Check Prime Number
-// program to check if a number is prime or not
+// 6. JavaScript Program to Check Prime Number or Not
 
+/*
 // take input from the user
 let number = parseInt(prompt("Please write an positive number"));
 let isPrime = true;
@@ -94,5 +94,8 @@ if (number == 1) {
     console.log(`${number} is a not prime number`);
   }
 }
+
+*/
+
 
 
