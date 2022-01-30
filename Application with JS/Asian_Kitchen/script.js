@@ -23,7 +23,7 @@ const china = document.getElementById("china");
 //Yemek menu Item oluşturma
 function meal(menu) {
   return `<div class="col-6 menu-items">
-    <img class="photo" src=${menu.img} alt="" />
+    <img class="photo w-100" src=${menu.img} alt="" />
     <div class="menu-info">
     <div class="menu-title">
     <h4>${menu.title}</h4>
