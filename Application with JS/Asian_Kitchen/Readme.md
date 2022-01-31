@@ -1,2 +1,2 @@
 # Assian Kitchen
-* Restaurant Menusu Çalışması
+* Restaurant Menusu Çalışması.
