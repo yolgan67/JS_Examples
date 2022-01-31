@@ -25,3 +25,11 @@ function removeChar(str) {
   return str.slice(1, -1);
 }
 console.log(removeChar("Yunus"))
+
+
+//4. Salary increase calculation; Let there be an array of workers' salaries. Let's create a series of maps with a 15% increase in salary over 3000 TL and a 25% increase in watching over 3000 TL.
+
+const salary = [ 1100, 13000, 2500, 4500, 1500, 25000, 2000 ];
+const newSalary = salary.map(item => item>3000 ? item*1.15 : item*1.25)
+console.log(newSalary)
+
