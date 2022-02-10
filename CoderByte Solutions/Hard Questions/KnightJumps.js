@@ -9,16 +9,15 @@ console.log(x,y)
 let result;
 
 if( (x==3 || x==4 || x==5 || x==6 ) && (y==3 || y==4 || y==5 || y==6 ) ){
- return result=8
+  return result=8
 }else if((x==1 || x==8) && (y==1 || y==8)){
   return result =2
-}else if(((x==2 || x==7)&&(y==3||y==4||y==5||y==6) ) ||  ((y==2 || y==7)&&(x==3||x==4||x==5||x==6)) ){
+}else if(((x==2 || x==7)&&(y==3||y==4||y==5||y==6))||((y==2 || y==7)&&(x==3||x==4||x==5||x==6))){
   return  result=6
-}else if( ( (x==1 || x==8) && (y==3 || y==4 || y==5 || y==6) ) || ( (x==3 || x==4 || x==5 || x==6) && (y==1 || y==8)) || ((x=2 || x==7) && (y==2 || y==7)) ){
-return result=4
-
+}else if(( (x==1||x==8)&&(y==3||y==4||y==5||y==6))||((x==3||x==4||x==5||x==6)&&(y==1||y==8))||((x=2||     x==7)&&(y==2||y==7))){
+  return result=4
 }else if (((x==2 || x==7) && (y==1 || y==8))||((x==1 || x==8)&&(y==2 || y==7))){
-return result =3
+  return result =3
 }
 return result
 }
