@@ -72,11 +72,11 @@ for(let y=0;y<=100;y++){
 
 // Use for loop to iterate from 0 to 100 and print and print the sum of all numbers.
 
-let sum=0;
+let sum1=0;
 for (let index = 0; index <= 100; index++) {
   sum +=index
 }
-console.log(sum)  //5050
+console.log(sum1)  //5050
 
 // The sum all numbers in a given number. Ex. 5465 => 5+4+6+5 => 20  
 
